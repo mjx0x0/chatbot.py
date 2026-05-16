@@ -117,7 +117,7 @@ elif workflow_preset == "BAC Auditing Protocols":
 # 6. Initialize State Tracking Memory
 if "messages" not in st.session_state:
     st.session_state.messages = [
-        {"role": "assistant", "content": "Mabuhi! I am **Isko BidDo AI**, your compliance advisory assistant for MSU-Gensan procurement. How can I help you optimize your tracking, logging, or regulatory alignment today?"}
+        {"role": "assistant", "content": "Hello! I am **Isko BidDo AI**, your compliance advisory assistant for MSU-Gensan procurement. How can I help you optimize your tracking, logging, or regulatory alignment today?"}
     ]
 
 # 7. Render Chat History Layout
